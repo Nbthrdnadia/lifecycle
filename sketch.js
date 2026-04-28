@@ -11,13 +11,15 @@ const maxBrushSize = 95;
 const particleCount = 140;
 
 function preload() {
-  images.push(loadImage('assets/empty.jpg'));       // 0 (starting image)
-  images.push(loadImage('assets/people.jpg'));      // 1
+  images.push(loadImage('assets/bench.jpg'));       // 0 (empty)
+  images.push(loadImage('assets/couple.jpg'));      // 1 (people)
   images.push(loadImage('assets/married.jpg'));     // 2
-  images.push(loadImage('assets/smallkids.jpg'));   // 3
-  images.push(loadImage('assets/grownupkid.jpg'));  // 4
-  images.push(loadImage('assets/final.jpg'));       // 5
-  images.push(loadImage('assets/bothgone.jpg'));    // 6
+  images.push(loadImage('assets/small_kid.jpg'));   // 3
+  images.push(loadImage('assets/teenage_guy.jpg')); // 4
+  images.push(loadImage('assets/guy_married.png')); // 5
+  images.push(loadImage('assets/both_old.png'));    // 6
+  images.push(loadImage('assets/woman_gone.png'));  // 7
+  images.push(loadImage('assets/both_gone.jpg'));   // 8
 }
 
 function setup() {
